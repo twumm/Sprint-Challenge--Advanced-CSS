@@ -8,9 +8,11 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.8;
 
   h1 {
     font-size: 4rem;
+    color: @nav-font;
   }
 
   .nav-links {
@@ -21,8 +23,12 @@ nav {
       padding-right: 25px;
       font-size: 1.5rem;
       text-decoration: none;
-      color: inherit;
+      color: @nav-font;
       font-weight: bold;
+
+      &:hover {
+        .on-hover(@header-font-color)
+      }
     }
   }
 }

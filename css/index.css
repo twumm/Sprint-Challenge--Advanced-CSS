@@ -169,9 +169,11 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
+  opacity: 0.8;
 }
 nav h1 {
   font-size: 4rem;
+  color: #454A59;
 }
 nav .nav-links {
   display: flex;
@@ -182,8 +184,12 @@ nav .nav-links a {
   padding-right: 25px;
   font-size: 1.5rem;
   text-decoration: none;
-  color: inherit;
+  color: #454A59;
   font-weight: bold;
+}
+nav .nav-links a:hover {
+  color: #23293B;
+  transition: 0.5 ease-out;
 }
 footer {
   color: #22283B;
