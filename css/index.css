@@ -173,7 +173,7 @@ nav h1 {
 nav .nav-links {
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 nav .nav-links a {
   padding-right: 25px;
