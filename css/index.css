@@ -202,7 +202,7 @@ footer {
   align-items: center;
 }
 .home {
-  margin-top: 22vh;
+  margin-top: 115px;
 }
 .home .intro img {
   border-radius: 5px;
@@ -321,7 +321,7 @@ footer {
   border-radius: 10px;
 }
 .about {
-  margin-top: 22vh;
+  margin-top: 115px;
 }
 .about .intro {
   background: #454A59;
