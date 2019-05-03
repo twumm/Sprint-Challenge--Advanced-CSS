@@ -18,23 +18,18 @@
   
   }
 
-  .space-images {
+  .space-videos {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+    justify-content: center;
 
-    img {
-      width: 28%;
-      margin: 20px 2.5%;
-      border-radius: 20px;
-      height: 100%;
+    iframe {
+      width: 40%;
+      margin: 30px 2.5%;
 
       @media @phone {
         width: 100%;
-        &:nth-of-type(2),
-        &:nth-of-type(3) {
-          display: none;
-        }
       }
     }
   }
