@@ -1,1 +1,28 @@
 // Mixins Here
+.display-flex(@justifyContent) {
+  display: flex;
+  justify-content: @justifyContent;
+}
+
+.button-signup(@btn-bg, @font-color, @btn-bg-hover) {
+  background-color: @btn-bg;
+  font-size: 1.8rem;
+  border-radius: 5px;
+  padding: .8rem 1.6rem;
+  color: @font-color;
+  font-weight: bold;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: @btn-bg-hover;
+    color: @btn-bg;
+    transition: .5 ease-out;
+  }
+}
+
+.on-hover(@color) {
+  color: @color;
+  transition: .5 ease-out;
+}
